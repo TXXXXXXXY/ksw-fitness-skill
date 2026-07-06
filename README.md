@@ -2,13 +2,13 @@
 
 <div align="center">
 
-**A QoderWork Agent Skill that turns AI into a professional fitness coach, based on the teaching methodology of [凯圣王 (Kai Sheng Wang)](https://www.douyin.com/user/MS4wLjABAAAAjnKGbRiPmA8tqEn8WAWSqr89M7HQhpxsJdXdgM6bebf2c9pxX4GRBWG9I6GmppEA), a top Chinese fitness educator with 1M+ followers.**
+**An AI Agent Skill that turns any LLM into a professional fitness coach, based on the teaching methodology of [凯圣王 (Kai Sheng Wang)](https://www.douyin.com/user/MS4wLjABAAAAjnKGbRiPmA8tqEn8WAWSqr89M7HQhpxsJdXdgM6bebf2c9pxX4GRBWG9I6GmppEA), a top Chinese fitness educator with 1M+ followers. Works with QoderWork, Claude, ChatGPT, or any AI agent that supports custom instructions.**
 
-**一个基于抖音百万粉丝健身博主凯圣王教学体系的 QoderWork 智能体技能，让 AI 变身专业健身教练。**
+**一个基于抖音百万粉丝健身博主凯圣王教学体系的 AI 智能体技能，让任意大模型变身专业健身教练。适用于 QoderWork、Claude、ChatGPT 等所有支持自定义指令的 AI 工具。**
 
 [![Skill Files](https://img.shields.io/badge/Skill_Files-6-blue)](#-file-structure)
 [![Exercises](https://img.shields.io/badge/Exercise_DB-1324-green)](#-data-sources)
-[![QoderWork](https://img.shields.io/badge/Platform-QoderWork-orange)](https://docs.qoder.com/qoderwork/introduction)
+[![Platform](https://img.shields.io/badge/Platform-Agnostic-lightgrey)](#-installation--安装方法)
 [![Languages](https://img.shields.io/badge/Languages-CN%20%7C%20EN-yellow)](#-overview)
 
 </div>
@@ -17,9 +17,9 @@
 
 ## What This Does / 这是什么
 
-This is a **QoderWork Agent Skill** — a structured knowledge package that teaches AI how to coach fitness like a professional trainer. Once installed, the AI can:
+This is a **structured knowledge package** that teaches any AI how to coach fitness like a professional trainer. Once loaded, the AI can:
 
-这是一个 **QoderWork 智能体技能** —— 一套结构化的健身知识包，教会 AI 像专业教练一样指导训练。安装后，AI 可以：
+这是一套**结构化的健身知识包**，教会任意 AI 像专业教练一样指导训练。加载后，AI 可以：
 
 - **Generate training plans** — Push/Pull/Legs splits, beginner progressions, customized to your goals, experience, and injuries
 - **编排训练计划** — 推/拉/腿三分化、新手进阶路径，根据你的目标、经验和伤病定制
@@ -79,38 +79,78 @@ ksw-fitness-skill/
 
 ## Installation / 安装方法
 
-### Prerequisites / 前提条件
+This skill is **platform-agnostic** — it works with any AI agent that supports custom instructions or knowledge loading.
 
-- [QoderWork](https://docs.qoder.com/qoderwork/introduction) desktop app installed
+本技能**不绑定任何平台** —— 适用于所有支持自定义指令/知识加载的 AI 智能体。
 
-### Steps / 步骤
+### Step 1: Get the files / 获取文件
 
-1. Clone or download this repository
-2. **Rename** the cloned folder to `ksw-fitness-skill`（如果克隆后文件夹名不同，必须重命名为此名称。QoderWork 通过文件夹名识别 Skill）
-3. Copy the folder to your QoderWork skills directory:
+```bash
+git clone https://github.com/TXXXXXXXY/ksw-fitness-skill.git
+```
+
+Or click **Code → Download ZIP** on the GitHub page.
+
+或点击 GitHub 页面上的 **Code → Download ZIP**。
+
+### Step 2: Load into your AI agent / 加载到你的 AI 工具
+
+<details>
+<summary><b>QoderWork</b></summary>
+
+Copy the folder to your skills directory:
 
 ```
 # Windows
 %USERPROFILE%\.qoderworkcn\skills\ksw-fitness-skill\
 
 # macOS / Linux
-~/.qoderworkcn/skills/ksw-fitness-skill/
+~/.qoderworkcn/skills/ksw-fitness-skill\
 ```
 
-4. Restart QoderWork — the skill will auto-load when you mention fitness-related topics
-5. 重启 QoderWork，当你提到健身相关话题时，技能会自动加载
+Restart QoderWork. The skill auto-loads when you mention fitness topics.
 
-> **Important / 注意:** The folder name **must** match the `name` field in `SKILL.md` frontmatter (`ksw-fitness-skill`). If they don't match, the skill will not load.
->
-> **注意：** 文件夹名**必须**与 `SKILL.md` 中 frontmatter 的 `name` 字段（`ksw-fitness-skill`）一致，否则 Skill 无法加载。
+重启 QoderWork，提到健身话题时自动加载。
+
+> Folder name must match the `name` field in SKILL.md (`ksw-fitness-skill`).
+> 文件夹名必须与 SKILL.md 的 `name` 字段一致。
+</details>
+
+<details>
+<summary><b>Claude (Projects)</b></summary>
+
+1. Open a Claude Project → **Project Settings** → **Project Instructions**
+2. Paste the content of `SKILL.md` as project instructions
+3. Upload `exercise-library.md`, `muscle-synergy.md`, `injury-substitutions.md`, `exercise-library-expanded.md`, `programming-decision-tree.md` as **Project Knowledge** files
+
+打开 Claude Project → **Project Settings** → **Project Instructions**，将 `SKILL.md` 内容粘贴为项目指令，其余 `.md` 文件上传为项目知识文件。
+</details>
+
+<details>
+<summary><b>ChatGPT (Custom Instructions / GPTs)</b></summary>
+
+**Custom Instructions:** Paste the content of `SKILL.md` into your Custom Instructions.
+
+**GPTs:** Upload all `.md` files as Knowledge in your GPT configuration.
+
+将 `SKILL.md` 内容粘贴到自定义指令中，或将所有 `.md` 文件上传为 GPT 知识文件。
+</details>
+
+<details>
+<summary><b>Other AI Agents / 其他 AI 工具</b></summary>
+
+Use `SKILL.md` as a **system prompt** or context document. The reference files (`exercise-library.md`, `muscle-synergy.md`, etc.) can be loaded as RAG knowledge or appended to the prompt as needed.
+
+将 `SKILL.md` 用作系统提示词或上下文文档，其余文件按需加载为知识库。
+</details>
 
 ---
 
 ## Usage Examples / 使用示例
 
-Once installed, just chat naturally. The skill activates automatically when you mention fitness topics:
+Once loaded into your AI tool, just chat naturally:
 
-安装后，直接用自然语言对话即可。提到健身话题时技能自动激活：
+加载到你的 AI 工具后，直接用自然语言对话即可：
 
 | You say / 你说 | AI does / AI 做 |
 |------|------|
@@ -173,4 +213,4 @@ MIT 许可证。动作数据来源于 [ExerciseDB v1](https://oss.exercisedb.dev
 - [凯圣王](https://www.douyin.com/user/MS4wLjABAAAAjnKGbRiPmA8tqEn8WAWSqr89M7HQhpxsJdXdgM6bebf2c9pxX4GRBWG9I6GmppEA) — Original fitness methodology / 原始健身教学方法
 - [谭成义](https://www.douyin.com/zhuanti/7626152142012811310) — Co-developer of the Functional 3-Split System / 功能性三分化训练体系联合开发者
 - [ExerciseDB Dataset](https://github.com/hasaneyldrm/exercises-dataset) — 1,324 exercises with multilingual instructions / 1,324个多语言动作数据
-- [QoderWork](https://docs.qoder.com/qoderwork/introduction) — The platform that makes this skill possible / 支撑此技能运行的平台
+- [QoderWork](https://docs.qoder.com/qoderwork/introduction) — One of the supported platforms for this skill / 本技能支持的平台之一
