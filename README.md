@@ -168,6 +168,7 @@ Once loaded into your AI tool, just chat naturally:
 |------|------|
 | **凯圣王 Douyin/Bilibili** | Training methodology, exercise cues, carb cycling formulas, warm-up protocols / 训练方法论、动作要领、碳循环公式、热身方案 |
 | **[ExerciseDB Dataset](https://github.com/hasaneyldrm/exercises-dataset)** | 1,324 exercises with muscle synergy data (target, synergist, secondary muscles) and Chinese instructions / 1,324个动作的肌肉协同数据和中文指导 |
+| **[free-exercise-db](https://github.com/yuhonas/free-exercise-db)** | 873 exercises with structured metadata (force/level/mechanic) and JPG images via jsdelivr CDN / 873个动作的结构化元数据和动作示范图片 |
 | **Baidu Baike** | Biographical information / 人物背景信息 |
 | **Community notes (SMZDM, Zhihu, Bilibili)** | User-generated training logs and summaries / 用户整理的训练笔记 |
 
@@ -195,7 +196,7 @@ This skill is **inspired by** 凯圣王's teaching methodology, but is not exclu
 | Source / 来源 | Proportion / 占比 | Content / 内容 |
 |------|------|------|
 | **凯圣王's methodology** | ~25-35% | 3-split training system, carb cycling formulas (223 method), 3-stage warm-up, training philosophy, posture correction, exercise cues from his videos / 三分化训练体系、碳循环223公式、三阶段热身、训练理念、体态纠正、视频中的动作要领 |
-| **[ExerciseDB Dataset](https://github.com/hasaneyldrm/exercises-dataset)** | ~45-55% | 1,324 exercises with muscle synergy data, injury-safe substitutions, expanded exercise library with Chinese instructions / 1,324个动作的肌肉协同数据、伤病替代方案、扩展动作库 |
+| **[ExerciseDB Dataset](https://github.com/hasaneyldrm/exercises-dataset)** + **[free-exercise-db](https://github.com/yuhonas/free-exercise-db)** | ~45-55% | 1,324 exercises with muscle synergy data, injury-safe substitutions, expanded exercise library with Chinese instructions, 873 exercises with JPG images and metadata tags / 1,324个动作的肌肉协同数据、伤病替代方案、扩展动作库，873个动作的图片与元数据标签 |
 | **General exercise science** | ~15-25% | Programming logic, progressive overload principles, split arrangement theory, recovery protocols / 训练编排逻辑、渐进超负荷原则、分化排列理论、恢复方案 |
 
 > **Note / 说明:** 凯圣王's content forms the **soul** of this skill — his unique training philosophy, diet system, and methodology distinguish it from generic fitness apps. The ExerciseDB data and exercise science knowledge provide the **backbone** that makes the coaching logic work.
@@ -231,4 +232,5 @@ MIT 许可证。动作数据来源于 [ExerciseDB v1](https://oss.exercisedb.dev
 - [凯圣王](https://www.douyin.com/user/MS4wLjABAAAAjnKGbRiPmA8tqEn8WAWSqr89M7HQhpxsJdXdgM6bebf2c9pxX4GRBWG9I6GmppEA) — Original fitness methodology / 原始健身教学方法
 - [谭成义](https://www.douyin.com/zhuanti/7626152142012811310) — Co-developer of the Functional 3-Split System / 功能性三分化训练体系联合开发者
 - [ExerciseDB Dataset](https://github.com/hasaneyldrm/exercises-dataset) — 1,324 exercises with multilingual instructions / 1,324个多语言动作数据
+- [free-exercise-db](https://github.com/yuhonas/free-exercise-db) — 873 exercises with JPG images and structured metadata / 873个动作的结构化数据和示范图片
 - [QoderWork](https://docs.qoder.com/qoderwork/introduction) — One of the supported platforms for this skill / 本技能支持的平台之一

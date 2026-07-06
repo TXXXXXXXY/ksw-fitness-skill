@@ -2,11 +2,15 @@
 
 本文件为详细动作参考库，按肌群分类。每个动作包含起始姿势、发力要点、常见错误和变体。
 
+图片链接格式：`https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/{ExerciseID}/0.jpg`（起始）和 `1.jpg`（结束），来自 [free-exercise-db](https://github.com/yuhonas/free-exercise-db) 开源数据集。如链接不可访问，直接使用文字描述即可。
+
 ---
 
 ## 一、胸部训练
 
 ### 1. 蝴蝶机夹胸
+`ExerciseID: Cable_Crossover | force: push | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Cable_Crossover/0.jpg)
 - **起始**：坐直，背部贴紧靠垫，双手握住把手
 - **发力**：握把置于掌根，限制手腕活动以维持躯干稳定，想象用大臂去"拥抱"一棵大树
 - **常见错误**：手腕翻转导致前臂代偿、耸肩、身体前倾借力
@@ -14,6 +18,8 @@
 - **退阶**：减轻重量，缩小动作幅度
 
 ### 2. 杠铃卧推
+`ExerciseID: Barbell_Bench_Press_-_Medium_Grip | force: push | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Barbell_Bench_Press_-_Medium_Grip/0.jpg)
 - **起始**：仰卧于平板凳，双脚踩实地面，握距略宽于肩
 - **发力**：杠铃下放至胸口偏下位置（乳头线附近），大臂与躯干夹角约45-75度，推起时想象把杠铃"掰弯"以激活胸肌。下肢蹬地、腰部微拱、背部收紧
 - **离心**：下放过程控制4秒
@@ -22,6 +28,8 @@
 - **进阶**：增加重量；**退阶**：空杆练习动作模式
 
 ### 3. 上斜哑铃卧推
+`ExerciseID: Incline_Dumbbell_Press | force: push | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Incline_Dumbbell_Press/0.jpg)
 - **起始**：凳面调至35-45度，仰卧，双手持哑铃于胸部两侧
 - **发力**：哑铃向上推起至手臂微屈，顶峰时哑铃不要相撞，感受上胸和三角肌前束收缩
 - **常见错误**：角度过大（变成练肩）、腰部过度反弓、哑铃下放不够深
@@ -29,6 +37,8 @@
 - **退阶**：降低凳面角度或减轻哑铃重量
 
 ### 4. 双杠臂屈伸
+`ExerciseID: Dips_-_Chest_Version | force: push | level: intermediate | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Dips_-_Chest_Version/0.jpg)
 - **起始**：双手撑于双杠，身体悬垂
 - **发力**：身体前倾侧重胸肌，身体直立侧重三头。下放至上臂平行于地面，推起至手臂伸直
 - **常见错误**：肩部耸起、下放不够深、身体晃动借力
@@ -36,6 +46,7 @@
 - **退阶**：使用辅助器械或弹力带辅助；**进阶**：负重臂屈伸
 
 ### 5. 肩胛俯卧撑
+`force: push | level: beginner | mechanic: isolation`
 - **起始**：高位平板支撑姿势
 - **发力**：手臂保持伸直，仅通过肩胛骨的收缩和前伸来升降身体。肩胛骨靠拢时身体下沉，肩胛骨分开时身体上升
 - **常见错误**：弯曲手臂、用胸肌发力而非肩胛骨控制
@@ -43,6 +54,8 @@
 - **要点**：此动作与普通俯卧撑完全不同，聚焦肩胛骨运动控制
 
 ### 6. 直杆下压
+`ExerciseID: Triceps_Pushdown | force: push | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Triceps_Pushdown/0.jpg)
 - **起始**：站姿，双手握住直杆，大臂贴近身体
 - **发力**：大臂保持稳定，将直杆向下压至手臂伸直，感受胸大肌下沿和肱三头肌收缩
 - **常见错误**：大臂前后移动导致肘关节负担增大、身体前倾借力
@@ -57,6 +70,8 @@
 2. 弹力带直臂下拉：双臂伸直，将弹力带从头顶上方拉至腹部，感受背阔肌激活
 
 ### 1. 引体向上
+`ExerciseID: Pullups | force: pull | level: intermediate | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Pullups/0.jpg)
 - **起始**：双手正握杠，握距略宽于肩，身体自然悬垂
 - **发力**：先沉肩（肩胛骨下沉），然后想象把肘部拉向髋部，拉起至下巴过杠
 - **常见错误**：不沉肩直接拉（伤肩）、过度借力摆动、只做半程
@@ -64,12 +79,16 @@
 - **进阶**：负重引体向上
 
 ### 2. 单手钢线下拉
+`ExerciseID: One_Arm_Lat_Pulldown | force: pull | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/One_Arm_Lat_Pulldown/0.jpg)
 - **起始**：单手握住钢线把手，身体微侧倾
 - **发力**：专注背阔肌收缩，将把手拉向髋部方向，顶峰挤压1秒
 - **常见错误**：用手臂拉而非背部发力、身体旋转过多
 - **组数**：4x12/侧
 
 ### 3. 单手器械划船
+`ExerciseID: One-Arm_Dumbbell_Row | force: pull | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/One-Arm_Dumbbell_Row/0.jpg)
 - **起始**：单膝跪于器械凳上，一手握住把手
 - **发力**：将把手拉向髋部，肘部贴近身体，感受背阔肌和菱形肌收缩
 - **常见错误**：腰部借力扭转、耸肩、腹部松弛导致腰部代偿
@@ -77,12 +96,16 @@
 - **要点**：全程保持腹部紧绷，防止腰部代偿
 
 ### 4. 对握下拉
+`ExerciseID: Close-Grip_Front_Lat_Pulldown | force: pull | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Close-Grip_Front_Lat_Pulldown/0.jpg)
 - **起始**：双手对握（掌心相对）握住下拉把手
 - **发力**：沉肩后拉向锁骨方向，感受背部中段收缩
 - **常见错误**：过度后仰、只用手臂力量
 - **组数**：3x12
 
 ### 5. 开肘下拉
+`ExerciseID: Wide-Grip_Lat_Pulldown | force: pull | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Wide-Grip_Lat_Pulldown/0.jpg)
 - **起始**：双手握住把手，肘部预先外展
 - **发力**：保持肘部外展状态下拉，侧重三角肌后束和上背部
 - **常见错误**：肘部不自觉内收、耸肩
@@ -96,6 +119,8 @@
 由谭指导专门带做，包括髋关节活动度训练、膝关节激活、踝关节活动等。
 
 ### 1. 单腿硬拉
+`ExerciseID: Romanian_Deadlift | force: pull | level: intermediate | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Romanian_Deadlift/0.jpg)
 - **起始**：单脚站立，微屈膝，对侧手持哑铃
 - **发力**：支撑腿臀部向后推，躯干前倾保持背部挺直，非支撑腿向后伸展，感受腘绳肌拉伸后收回
 - **常见错误**：膝盖内扣、背部弯曲、重心不稳
@@ -103,6 +128,8 @@
 - **退阶**：不负重，徒手练习平衡
 
 ### 2. 单腿保加利亚蹲
+`ExerciseID: Split_Squat_with_Dumbbells | force: push | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Split_Squat_with_Dumbbells/0.jpg)
 - **起始**：后脚脚背搭于凳面，前脚踩实地面
 - **发力**：前腿屈膝下蹲至大腿平行地面，重心始终在前腿脚跟，起身时臀部发力
 - **常见错误**：膝盖超过脚尖过多、躯干过度前倾、后脚承重过多
@@ -110,6 +137,8 @@
 - **退阶**：手扶墙壁辅助平衡
 
 ### 3. 高脚杯深蹲
+`ExerciseID: Goblet_Squat | force: push | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Goblet_Squat/0.jpg)
 - **起始**：双手托住哑铃一端于胸前，双脚与肩同宽
 - **发力**：臀部向后下方沉降，躯干保持直立，蹲至大腿平行或略低于平行，脚跟发力站起
 - **常见错误**：膝盖内扣、脚跟离地、躯干过度前倾
@@ -117,6 +146,8 @@
 - **退阶**：徒手深蹲
 
 ### 4. 杠铃罗马尼亚硬拉
+`ExerciseID: Romanian_Deadlift | force: pull | level: intermediate | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Romanian_Deadlift/0.jpg)
 - **起始**：站姿，杠铃位于大腿前方，双手正握略宽于髋
 - **发力**：臀部向后推，杠铃沿腿面前线下行，保持背部挺直，感受腘绳肌拉伸至极限后臀部发力收回
 - **常见错误**：背部弯曲（极危险）、杠铃离身体太远、膝盖过度前顶
@@ -124,6 +155,8 @@
 - **退阶**：哑铃替代，减轻重量
 
 ### 5. 山羊挺身（背伸展）
+`ExerciseID: Hyperextensions_Back_Extensions | force: pull | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Hyperextensions_Back_Extensions/0.jpg)
 - **起始**：俯卧于山羊挺身器械，脚踝固定，上身悬空
 - **发力**：臀部和大腿后侧发力，将上身抬起至与下半身成一条直线，可练臀/竖脊肌/腘绳肌
 - **常见错误**：过度后仰（超伸）、用惯性甩起
@@ -135,12 +168,16 @@
 ## 四、肩部训练
 
 ### 1. 推举（杠铃/哑铃）
+`ExerciseID: Barbell_Shoulder_Press | force: push | level: intermediate | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Barbell_Shoulder_Press/0.jpg)
 - **目标**：三角肌前束为主，中束辅助
 - **发力**：坐于有靠背的凳上，将重量从肩部推至头顶，控制下放
 - **常见错误**：腰部过度反弓、肘部过度后展
 - **退阶**：坐姿哑铃推举（活动度更友好）
 
 ### 2. Y字侧平举
+`ExerciseID: Side_Lateral_Raise | force: push | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Side_Lateral_Raise/0.jpg)
 - **目标**：三角肌中束
 - **发力**：在肩胛骨平面内运动（手臂略偏前于身体正面约30度），拇指朝下，抬至肩高
 - **常见错误**：手臂完全在身体正侧面（不在肩胛骨平面）、耸肩代偿
@@ -148,12 +185,16 @@
 - **注意**：肩胛骨功能受限的新手不宜直接做，应先改善肩胛骨活动度
 
 ### 3. 反向飞鸟
+`ExerciseID: Reverse_Flyes | force: pull | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Reverse_Flyes/0.jpg)
 - **目标**：三角肌后束
 - **发力**：俯身或俯卧于上斜凳，手臂向两侧后方展开。整个手臂全程像一根"不带劲的配重杆"，手只是搭住握把不攥紧。所有运动轨迹只在水平面内走，肩关节做纯粹的水平外展
 - **常见错误**：往后夹肩胛骨、顶肩耸肩、斜方肌代偿
 - **核心口诀**：不夹肩胛、不耸肩、不旋转，只让大臂在水平面上向两侧后方延展
 
 ### 4. 面拉（Face Pull）
+`ExerciseID: Face_Pull | force: pull | level: intermediate | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Face_Pull/0.jpg)
 - **目标**：三角肌后束+肩胛稳定肌
 - **发力**：钢线调至面部高度，双手拉向面部两侧，终点时做肩胛骨后缩
 - **常见错误**：只用手臂拉、不做肩胛骨后缩
@@ -165,27 +206,37 @@
 ### 二头肌
 
 #### 1. 杠铃二头弯举
+`ExerciseID: Barbell_Curl | force: pull | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Barbell_Curl/0.jpg)
 - **发力**：大臂贴紧身体两侧，只做肘关节屈曲，控制下放维持张力
 - **建议**：使用曲杆保护手腕，注重离心阶段
 - **常见错误**：大臂前后晃动借力、身体摆动
 - **组数**：3x12，安排在训练后段
 
 #### 2. 龙门架曲臂下压（弯举）
+`ExerciseID: Cable_Hammer_Curls_-_Rope_Attachment | force: pull | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Cable_Hammer_Curls_-_Rope_Attachment/0.jpg)
 - **发力**：用器械而非哑铃保护肘部，沉肩微屈，通过弧线轨迹保持肌肉持续紧张
 - **常见错误**：耸肩、大臂移动
 
 #### 3. 钢线弯举
+`ExerciseID: Standing_Biceps_Cable_Curl | force: pull | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Standing_Biceps_Cable_Curl/0.jpg)
 - **发力**：沉肩微屈，弧线轨迹保持持续紧张
 - **组数**：3x12
 
 ### 三头肌
 
 #### 1. 仰卧屈伸
+`ExerciseID: Lying_Triceps_Press | force: push | level: intermediate | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Lying_Triceps_Press/0.jpg)
 - **发力**：仰卧，双手持杠铃/哑铃伸直，屈肘将重量下放至额头后方，伸肘收回
 - **常见错误**：肘部外展、下放位置不对
 - **组数**：3x12
 
 #### 2. 直杆下压
+`ExerciseID: Triceps_Pushdown | force: push | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Triceps_Pushdown/0.jpg)
 - **发力**：大臂贴身，将直杆下压至手臂伸直
 - **组数**：5x10
 
@@ -196,18 +247,24 @@
 ### 核心收尾组合（每次训练后做）
 
 #### 1. 靠墙静蹲
+`force: push | level: beginner | mechanic: isolation`
 - 背部靠墙，大腿平行地面，保持30-60秒
 - 训练股四头肌等长收缩能力和意志力
 
 #### 2. 四足支撑（Bird Dog）
+`force: static | level: beginner | mechanic: compound`
 - 四点跪撑，同时伸出对侧手臂和腿，保持身体不晃动
 - 训练核心抗旋转能力和躯干稳定性
 
 #### 3. 超人式
+`ExerciseID: Superman | force: pull | level: beginner | mechanic: compound`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Superman/0.jpg)
 - 俯卧，同时抬起双手双脚，保持2-3秒后放下
 - 训练竖脊肌和后链力量
 
 #### 4. 卷腹
+`ExerciseID: Crunches | force: pull | level: beginner | mechanic: isolation`
+🖼️ [动作图示](https://cdn.jsdelivr.net/gh/yuhonas/free-exercise-db@main/exercises/Crunches/0.jpg)
 - 仰卧屈膝，双手放于耳侧，卷起上身至肩胛骨离地
 - 注意不是仰卧起坐，不需要坐起来，聚焦腹肌收缩
 - **常见错误**：双手抱头用力拉脖子、用惯性而非腹肌发力
