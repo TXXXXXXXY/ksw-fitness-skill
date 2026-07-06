@@ -53,7 +53,7 @@ His content covers: exercise technique breakdowns (48M+ views), follow-along wor
 ## File Structure / 文件结构
 
 ```
-ksw-fitness-skill/
+ksw-inspired-fitness/
 ├── SKILL.md                        # Main skill file / 主技能文件
 ├── exercise-library.md             # Core exercises with detailed cues / 凯圣王核心动作详解
 ├── exercise-library-expanded.md    # 50+ exercises from 1,324 DB with Chinese instructions / 扩展动作库
